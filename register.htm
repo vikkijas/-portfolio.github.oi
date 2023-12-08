@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body bgcolor="" ><br><br><br><br><br><br><br><br><br><br><br><br>
+    <fieldset>
+        <legend>Personal_details</legend>
+        <form action="signout.htm" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="fname">First name</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fname" name="Personal_details" pattern="[a-zA-Z]{3,8}" required placeholder="first name"><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="lname">Last name</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  id="lname" name="Personal_details" pattern="[a-zA-Z]{3,8}" required><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="mail">Email</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="mail" required ><br><br>
+            <label for="num">Phone number</label>
+            &nbsp;&nbsp;&nbsp;<input type="text" id="num" pattern="[6,9]{1}[0-9]{9}" required><br><br>
+            <label for="pass">create password</label>
+            <input type="text" id="pass" name="Personal_details" ><br><br>
+            <input type="submit">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
